@@ -26,12 +26,24 @@
 -   log exceptions
 -   singleton
 
+### Functools
+
+-   partial
+-   partialmethod
+-   wraps
+-   lru_cache
+-   singledispatch
+-   total_ordering
+-   reduce
+-   cmp_to_key
+-   update_wrapper
+-   cached_property
+
 ### Generators/Iterators
 
 -   generator
--   decorator
--   wraps
 -   iterator
+-   itertools module
 
 ### Comprehensions
 
@@ -44,10 +56,8 @@
 
 ### Modules
 
--   functools.partial
 -   operator module
 -   itertools module
--   functools module
 
 -   collections: list, tuple, dict, set, deque, namedtuple, defaultdict, OrderedDict, Counter, ChainMap.
 -   Immutability
