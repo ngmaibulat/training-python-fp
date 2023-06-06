@@ -1,30 +1,73 @@
 # Functional Programming in Python
 
-- lambda
-- map
-- filter
-- reduce
+### Basics
 
-- list comprehension
-- generator
-- using generators
+-   Variable number of arguments: \*args
+-   Variable number of keyword arguments: \*\*kwargs
+-   lambda
+-   closure
 
-- decorator
-- iterator
+### Map/Filter/Reduce
 
-- closure
-- composing functions
-- currying
-- functools.partial
+-   map
+-   filter
+-   reduce
 
-- itertools module
-- functools module
-- operator module
+### Decorators
 
-- collections: list, tuple, dict, set, deque, namedtuple, defaultdict, OrderedDict, Counter, ChainMap.
-- Immutability
-- Immutable data structures: tuple, namedtuple, frozenset, bytes, str, int, float, bool, None.
+-   timeit
+-   logger
+-   memoize
+-   count calls
+-   validate arguments, pydantic
+-   validate return value
+-   authentication
+-   retry
+-   log exceptions
+-   singleton
 
-- contextlib
-- contextmanager
-- contextvars
+### Generators/Iterators
+
+-   generator
+-   decorator
+-   wraps
+-   iterator
+
+### Comprehensions
+
+-   list comprehension
+
+### Currying/Composition
+
+-   composing functions
+-   currying
+
+### Modules
+
+-   functools.partial
+-   operator module
+-   itertools module
+-   functools module
+
+-   collections: list, tuple, dict, set, deque, namedtuple, defaultdict, OrderedDict, Counter, ChainMap.
+-   Immutability
+-   Immutable data structures: tuple, namedtuple, frozenset, bytes, str, int, float, bool, None.
+
+-   contextlib
+-   contextmanager
+-   contextvars
+
+### Principles of Functional Programming
+
+-   immutability
+-   composability
+-   no shared data
+-   no side effects, pure functions
+
+### Apply Functional Programming
+
+-   compose
+-   memoize
+-   Concurrency and Parallel Programming
+-   Reactive Programming
+-   Distributed Computing Patterns: map/reduce
