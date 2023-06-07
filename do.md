@@ -4,6 +4,7 @@
 -   pip package
 -   snap package
 -   flatpack package
+-   snap package for pgsql
 
 ### DB
 
@@ -16,13 +17,16 @@
 
 -   FastAPI
 -   CORS
+
+### Deployment
+
 -   deploy to D.O.
 -   TLS
 -   RSS re-export
 -   Docker
 -   Google App Engine
 
-### Package
+### Packages
 
 -   malshare import to DB
 -   phishtak import to DB
